@@ -12,7 +12,7 @@ the programs used to find them, and the program that computes the existence tabl
 | `data/cyclic_large_sets.txt` | Groups, shifters and base blocks of the cyclic large sets of Theorem 4.4 |
 | `verify/verify_affine.py` | Verifier for `affine_large_sets.txt` |
 | `verify/verify_cyclic.py` | Verifier for `cyclic_large_sets.txt` |
-| `search/` | Programs used to find the large sets |
+| `search/` | Programs used to find the large sets (`search/p311` for p = 311) |
 | `table/` | Program that computes the existence table of Section 6, its output, and the full tables |
 
 ## Verifying the large sets
@@ -63,7 +63,8 @@ python3 run3.py 600 3,4,12             # cyclic large sets with shifters of cent
 
 `km.py` builds the Kramer-Mesner matrices, `peel.py` finds one design with integer programming,
 `peelbt.py` peels designs one at a time with backtracking, and `cyc.py`, `cyc2.py`, `run3.py` and
-`run4.py` search for cyclic large sets. The searches are randomised, so they generally return
+`run4.py` search for cyclic large sets. The directory `search/p311` contains the program that found the LS[77](3,4,311);
+it peels in the same way, starting from a prescribed first design. The searches are randomised, so they generally return
 large sets different from those in `data/`.
 
 ## Existence table
