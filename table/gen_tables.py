@@ -26,7 +26,13 @@ for p in PRIMES:
                 st = "exists" if k in ex or k in nw else ("no" if k in no else "open")
                 rows_csv.append((p, t, k, v, st, T.E.get((t, k, v), T.NO.get((t, k, v), ""))))
             for k in nw: newlist.append((p, t, k, v, T.E[(t, k, v)]))
-            lines.append(f"{v} & {ranges(ex)} & {'\\textbf{' + ranges(nw) + '}' if nw else ''} & {ranges(no)} & {ranges(op)} \\\\")
+            def runs(ks, bold):
+                out = []
+                for r in ranges(ks).split(", "):
+                    if r: out.append((int(r.split("--")[0]), "\\textbf{" + r + "}" if bold else r))
+                return out
+            exs = ", ".join(x for _, x in sorted(runs(ex, False) + runs(nw, True)))
+            lines.append(f"{v} & {exs} & {ranges(op)} \\\\")
         summary[(p, t)] = (na, ne, nn, nno)
         if na == 0: continue
         if ne == na - nno:
@@ -36,8 +42,8 @@ for p in PRIMES:
             continue
         if ne == 0 and nno == 0:
             tex.append(f"\\subsection*{{$\\mathrm{{LS}}[{p}]({t},k,v)$}}\nNone of the {na} admissible parameter sets with $v\\le{VMAX}$ and $k\\le v/2$ is known to be realised.\n"); continue
-        tex.append(f"\\subsection*{{$\\mathrm{{LS}}[{p}]({t},k,v)$}}\n{ne} of {na} admissible parameter sets exist" + (f", {nno} do not exist" if nno else "") + f", {na-ne-nno} are open.\n\n"
-                   "{\\footnotesize\\begin{longtable}{r>{\\raggedright\\arraybackslash}p{4.6cm}>{\\raggedright\\arraybackslash}p{1.6cm}>{\\raggedright\\arraybackslash}p{1.4cm}>{\\raggedright\\arraybackslash}p{6.2cm}}\n\\toprule $v$ & exists, $k=$ & new & none & open, $k=$\\\\\\midrule\\endhead\n" + "\n".join(lines) + "\n\\bottomrule\\end{longtable}}\n")
+        tex.append(f"\\subsection*{{$\\mathrm{{LS}}[{p}]({t},k,v)$}}\n{ne} of {na} admissible parameter sets exist" + (f", {nno} do not exist" if nno else "") + f", {na-ne-nno} are open.\n" + (("Non-existent: " + ", ".join(f"$({t},{k},{v})$" for (pp, tt, k, v, st, w) in rows_csv if pp == p and tt == t and st == "no") + ".\n") if nno else "") + "\n"
+                   "{\\footnotesize\\begin{longtable}{r>{\\raggedright\\arraybackslash}p{7.0cm}>{\\raggedright\\arraybackslash}p{7.0cm}}\n\\toprule $v$ & exists, $k=$ & open, $k=$\\\\\\midrule\\endhead\n" + "\n".join(lines) + "\n\\bottomrule\\end{longtable}}\n")
 open("tables_body.tex", "w").write("\n".join(tex))
 with open("large_sets_table.csv", "w", newline="") as f:
     w = csv.writer(f); w.writerow(["N", "t", "k", "v", "status", "justification"]); w.writerows(rows_csv)
