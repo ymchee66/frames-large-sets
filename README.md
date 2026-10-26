@@ -76,3 +76,8 @@ python3 gen_tables.py
 recomputes `large_sets_table.csv`, which should coincide with `existence_table.csv`. The base
 results and their sources are listed in `base.py`, and the recursive theorems are implemented in
 `engine.py`. `existence_tables.pdf` contains the full tables with the justification of every entry.
+
+## Licence
+
+The programs and data are released under the MIT License (see `LICENSE`). If you use the data,
+please cite the paper.
