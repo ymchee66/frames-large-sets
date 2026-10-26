@@ -1,0 +1,78 @@
+# New large sets of t-designs from affine groups: data and programs
+
+This repository accompanies the paper *New Large Sets of t-Designs from Affine Groups* by
+Yeow Meng Chee. It contains every large set constructed in the paper, programs that verify them,
+the programs used to find them, and the program that computes the existence table of Section 6.
+
+## Contents
+
+| Path | Content |
+|---|---|
+| `data/affine_large_sets.txt` | Base blocks of the large sets of Theorems 3.5 and 3.8 |
+| `data/cyclic_large_sets.txt` | Groups, shifters and base blocks of the cyclic large sets of Theorem 4.4 |
+| `verify/verify_affine.py` | Verifier for `affine_large_sets.txt` |
+| `verify/verify_cyclic.py` | Verifier for `cyclic_large_sets.txt` |
+| `search/` | Programs used to find the large sets |
+| `table/` | Program that computes the existence table of Section 6, its output, and the full tables |
+
+## Verifying the large sets
+
+The verifiers use only the Python 3 standard library.
+
+```
+python3 verify/verify_affine.py data/affine_large_sets.txt
+python3 verify/verify_cyclic.py data/cyclic_large_sets.txt
+```
+
+Each line of output names a large set and reports `VERIFIED` or `FAILED`. Both runs take a few
+seconds. The verifiers were written separately from the search programs.
+
+`verify_affine.py` checks that the base blocks lie in pairwise distinct orbits, that the orbits
+contain every k-subset exactly once, and that every design contains every t-subset in exactly
+lambda blocks. Its docstring explains why it suffices to test the t-subsets containing 0 and 1.
+
+`verify_cyclic.py` generates the group, expands every orbit, checks that the first design is a
+t-(v,k,lambda) design, and checks that its images under the powers of the shifter are pairwise
+disjoint and contain every k-subset.
+
+## Data formats
+
+`affine_large_sets.txt`: a header line `LS group p t k lambda N`, with group `AGL` or `ASL`,
+followed by N lines, one per design. Each line lists base blocks separated by `|`. A design is the
+union of the orbits of its base blocks under
+AGL(1,p) = {x -> ax + b : a != 0} or ASL(1,p) = {x -> ax + b : a a nonzero square}.
+
+`cyclic_large_sets.txt`: a header line `LS[N](t,k,v) lambda=...`, then lines `G:` with the
+generators of G, a line `sigma:` with the shifter, and a line `blocks:` with base blocks.
+Permutations are image lists: point i is mapped to the i-th number. The first design is the union
+of the G-orbits of the base blocks, and the large set consists of its images under
+sigma^0, ..., sigma^(N-1).
+
+## Searching
+
+The search programs need Python 3 and OR-Tools (`pip install ortools`), whose CP-SAT solver solves
+the integer programs. For example,
+
+```
+cd search
+python3 peelbt.py AGL 3 4 23 47 59     # large sets LS[(p-3)/4](3,4,p) under AGL(1,p)
+python3 peelbt.py AGL 3 5 19           # LS[4](3,5,19) under AGL(1,19)
+python3 peelbt.py ASL 3 5 23           # LS[19](3,5,23) under ASL(1,23)
+python3 run3.py 600 3,4,12             # cyclic large sets with shifters of centraliser type
+```
+
+`km.py` builds the Kramer-Mesner matrices, `peel.py` finds one design with integer programming,
+`peelbt.py` peels designs one at a time with backtracking, and `cyc.py`, `cyc2.py`, `run3.py` and
+`run4.py` search for cyclic large sets. The searches are randomised, so they generally return
+large sets different from those in `data/`.
+
+## Existence table
+
+```
+cd table
+python3 gen_tables.py
+```
+
+recomputes `large_sets_table.csv`, which should coincide with `existence_table.csv`. The base
+results and their sources are listed in `base.py`, and the recursive theorems are implemented in
+`engine.py`. `existence_tables.pdf` contains the full tables with the justification of every entry.
