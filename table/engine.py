@@ -61,6 +61,13 @@ class Table:
                             w = u + (v - t)
                             while w <= VMAX: s.add(t, k, w, f"({t},{k},{u}) and ({t},i,{v}) for i<={k}"); w += v - t
                         k += 1
+            # doubling (Tran van Trung 2019, Corollary 4.5(ii)): (t,i,v) for t<i<=k and k>=2t+1 give (t,k,2v)
+            for t in range(2, TMAX + 1):
+                for v in range(t + 2, VMAX // 2 + 1):
+                    k = t + 1
+                    while k < v and s.has(t, k, v):
+                        if k >= 2 * t + 1: s.add(t, k, 2 * v, f"doubling of ({t},i,{v}) for i<={k}")
+                        k += 1
             # root cases (Khosrovshahi and Tayfeh-Rezaie)
             f = 1
             while p ** f + 2 <= VMAX:
