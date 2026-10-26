@@ -2,7 +2,7 @@
 
 This repository accompanies the paper *New Large Sets of t-Designs from Affine Groups* by
 Yeow Meng Chee. It contains every large set constructed in the paper, programs that verify them,
-the programs used to find them, and the program that computes the existence table of Section 6.
+the programs used to find them, and the program that computes the existence table of Section 5.
 
 ## Contents
 
@@ -13,7 +13,7 @@ the programs used to find them, and the program that computes the existence tabl
 | `verify/verify_affine.py` | Verifier for `affine_large_sets.txt` |
 | `verify/verify_cyclic.py` | Verifier for `cyclic_large_sets.txt` |
 | `search/` | Programs used to find the large sets (`search/p311` for p = 311) |
-| `table/` | Program that computes the existence table of Section 6, its output, and the full tables |
+| `table/` | Program that computes the existence table of Section 5, its output, and the full tables |
 
 ## Verifying the large sets
 
