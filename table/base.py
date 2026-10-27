@@ -90,6 +90,11 @@ for q in range(5, VMAX + 1):
                 if (not D or (len(D) == 1 and is_prime(D[0]) and D[0] > 2)) and comb(q + 1, k) % order == 0:
                     DIRECT.append((comb(q + 1, k) // order, 3, k, q + 1, "LMW01 Thm 5, projective group"))
 OURS = [((p - 3) // 4, 3, 4, p, "this paper") for p in (47, 59, 71, 83)] + [(4, 3, 5, 19, "this paper"), (19, 3, 5, 23, "this paper")]
+OURS += [(13, 2, 5, 15, "this paper"), (13, 2, 6, 15, "this paper"), (13, 2, 5, 16, "this paper"), (13, 2, 7, 16, "this paper"),
+         (13, 2, 5, 17, "this paper"), (13, 2, 6, 17, "this paper"), (13, 2, 7, 17, "this paper"), (13, 2, 8, 17, "this paper"),
+         (13, 2, 6, 18, "this paper"), (13, 2, 7, 19, "this paper"), (13, 2, 8, 20, "this paper"), (13, 3, 4, 29, "this paper"),
+         (13, 2, 5, 29, "this paper"), (13, 2, 5, 41, "this paper"), (19, 3, 4, 41, "this paper"), (41, 2, 4, 43, "this paper"),
+         (41, 2, 4, 44, "this paper")]
 NONEX = [(5,2,3,7,"Cayley"),(5,2,4,7,"complement"),(5,3,4,8,"no LS[5](2,3,7)"),(7,3,4,10,"Kramer and Mesner"),
          (11,4,5,15,"Mendelsohn and Hung"),(13,4,5,17,"Ostergard and Pottonen")]
 def axioms(T):

@@ -19790,62 +19790,62 @@ N,t,k,v,status,justification
 11,6,43,97,open,
 13,2,3,15,exists,"Lu, Teirlinck"
 13,2,4,15,exists,LOTW07
-13,2,5,15,open,
-13,2,6,15,open,
+13,2,5,15,exists,this paper
+13,2,6,15,exists,this paper
 13,2,7,15,exists,LOTW07
 13,2,4,16,exists,LOTW07
-13,2,5,16,open,
-13,2,6,16,open,
-13,2,7,16,open,
+13,2,5,16,exists,this paper
+13,2,6,16,exists,"(2,5,15) and (2,6,15)"
+13,2,7,16,exists,this paper
 13,2,8,16,exists,"(2,7,15) and (2,8,15)"
-13,2,5,17,open,
-13,2,6,17,open,
-13,2,7,17,open,
-13,2,8,17,open,
-13,2,6,18,open,
-13,2,7,18,open,
-13,2,8,18,open,
-13,2,9,18,open,
-13,2,7,19,open,
+13,2,5,17,exists,this paper
+13,2,6,17,exists,this paper
+13,2,7,17,exists,this paper
+13,2,8,17,exists,this paper
+13,2,6,18,exists,this paper
+13,2,7,18,exists,"(2,6,17) and (2,7,17)"
+13,2,8,18,exists,"(2,7,17) and (2,8,17)"
+13,2,9,18,exists,"(2,8,17) and (2,9,17)"
+13,2,7,19,exists,this paper
 13,2,8,19,exists,"LOTW07, LS[221]"
-13,2,9,19,open,
-13,2,8,20,open,
-13,2,9,20,open,
-13,2,10,20,open,
-13,2,9,21,open,
-13,2,10,21,open,
-13,2,10,22,open,
-13,2,11,22,open,
-13,2,11,23,open,
-13,2,12,24,open,
+13,2,9,19,exists,"(2,8,18) and (2,9,18)"
+13,2,8,20,exists,this paper
+13,2,9,20,exists,"(2,8,19) and (2,9,19)"
+13,2,10,20,exists,"(2,9,19) and (2,10,19)"
+13,2,9,21,exists,"(2,8,20) and (2,9,20)"
+13,2,10,21,exists,"(2,9,20) and (2,10,20)"
+13,2,10,22,exists,"(2,9,21) and (2,10,21)"
+13,2,11,22,exists,"(2,10,21) and (2,11,21)"
+13,2,11,23,exists,"(2,10,22) and (2,11,22)"
+13,2,12,24,exists,"(2,11,23) and (2,12,23)"
 13,2,3,28,exists,"Lu, Teirlinck"
 13,2,4,28,exists,LOTW07
-13,2,5,28,open,
-13,2,6,28,open,
-13,2,7,28,open,
-13,2,8,28,open,
-13,2,9,28,open,
-13,2,10,28,open,
-13,2,11,28,open,
-13,2,12,28,open,
+13,2,5,28,exists,"(2,5,15) and (2,i,15) for i<=5"
+13,2,6,28,exists,"(2,6,15) and (2,i,15) for i<=6"
+13,2,7,28,exists,"(2,7,15) and (2,i,15) for i<=7"
+13,2,8,28,exists,"(2,8,15) and (2,i,15) for i<=8"
+13,2,9,28,exists,"(2,9,15) and (2,i,15) for i<=9"
+13,2,10,28,exists,"(2,10,15) and (2,i,15) for i<=10"
+13,2,11,28,exists,"(2,11,15) and (2,i,15) for i<=11"
+13,2,12,28,exists,"(2,12,15) and (2,i,15) for i<=12"
 13,2,4,29,exists,LOTW07
-13,2,5,29,open,
+13,2,5,29,exists,this paper
 13,2,6,29,exists,"LMW01 Thm 5, affine group, LS[585]"
 13,2,7,29,exists,"from (6,10,33) by derivation"
 13,2,8,29,exists,"from (6,10,33) by derivation"
 13,2,9,29,exists,"from (6,10,33) by derivation"
 13,2,10,29,exists,"from (6,10,33) by derivation"
 13,2,11,29,exists,"from (3,11,30) by derivation"
-13,2,12,29,open,
-13,2,5,30,open,
-13,2,6,30,open,
+13,2,12,29,exists,"(2,12,16) and (2,i,15) for i<=12"
+13,2,5,30,exists,"(2,4,29) and (2,5,29)"
+13,2,6,30,exists,"(2,5,29) and (2,6,29)"
 13,2,7,30,exists,"from (6,10,33) by derivation"
 13,2,8,30,exists,"from (6,10,33) by derivation"
 13,2,9,30,exists,"from (6,10,33) by derivation"
 13,2,10,30,exists,"from (6,10,33) by derivation"
 13,2,11,30,exists,"from (3,11,31) by derivation"
-13,2,12,30,open,
-13,2,6,31,open,
+13,2,12,30,exists,"(2,12,17) and (2,i,15) for i<=12"
+13,2,6,31,exists,"(2,5,30) and (2,6,30)"
 13,2,7,31,exists,"LMW01 Thm 5, affine group, LS[5655]"
 13,2,8,31,exists,"ASL(1,q), LS[16965]"
 13,2,9,31,exists,"LMW01 Thm 5, affine group, LS[43355]"
@@ -19875,37 +19875,37 @@ N,t,k,v,status,justification
 13,2,12,37,exists,"complement of (2,25,37)"
 13,2,3,41,exists,"Lu, Teirlinck"
 13,2,4,41,exists,LOTW07
-13,2,5,41,open,
-13,2,6,41,open,
-13,2,7,41,open,
-13,2,8,41,open,
-13,2,9,41,open,
-13,2,10,41,open,
-13,2,11,41,open,
-13,2,12,41,open,
-13,2,16,41,open,
-13,2,17,41,open,
+13,2,5,41,exists,this paper
+13,2,6,41,exists,"(2,6,15) and (2,i,15) for i<=6"
+13,2,7,41,exists,"(2,7,15) and (2,i,15) for i<=7"
+13,2,8,41,exists,"(2,8,15) and (2,i,15) for i<=8"
+13,2,9,41,exists,"(2,9,15) and (2,i,15) for i<=9"
+13,2,10,41,exists,"(2,10,15) and (2,i,15) for i<=10"
+13,2,11,41,exists,"(2,11,15) and (2,i,15) for i<=11"
+13,2,12,41,exists,"(2,12,15) and (2,i,15) for i<=12"
+13,2,16,41,exists,root cases at v=15
+13,2,17,41,exists,root cases at v=15
 13,2,18,41,exists,"LMW01 Thm 5, affine group, LS[123239415]"
 13,2,19,41,exists,"LMW01 Thm 5, affine group, LS[149184555]"
-13,2,20,41,open,
+13,2,20,41,exists,root cases at v=15
 13,2,4,42,exists,LOTW07
-13,2,5,42,open,
-13,2,6,42,open,
-13,2,7,42,open,
-13,2,8,42,open,
-13,2,9,42,open,
-13,2,10,42,open,
-13,2,11,42,open,
-13,2,12,42,open,
-13,2,17,42,open,
-13,2,18,42,open,
+13,2,5,42,exists,"(2,4,41) and (2,5,41)"
+13,2,6,42,exists,"(2,6,16) and (2,i,15) for i<=6"
+13,2,7,42,exists,"(2,7,16) and (2,i,15) for i<=7"
+13,2,8,42,exists,"(2,8,16) and (2,i,15) for i<=8"
+13,2,9,42,exists,"(2,9,16) and (2,i,15) for i<=9"
+13,2,10,42,exists,"(2,10,16) and (2,i,15) for i<=10"
+13,2,11,42,exists,"(2,11,16) and (2,i,15) for i<=11"
+13,2,12,42,exists,"(2,12,16) and (2,i,15) for i<=12"
+13,2,17,42,exists,root cases at v=15
+13,2,18,42,exists,root cases at v=15
 13,2,19,42,exists,"complement of (2,23,42)"
-13,2,20,42,open,
-13,2,21,42,open,
+13,2,20,42,exists,root cases at v=15
+13,2,21,42,exists,root cases at v=15
 13,2,5,43,exists,"ASL(1,q), LS[1066]"
-13,2,6,43,open,
-13,2,7,43,open,
-13,2,8,43,open,
+13,2,6,43,exists,"(2,6,17) and (2,i,15) for i<=6"
+13,2,7,43,exists,"(2,7,17) and (2,i,15) for i<=7"
+13,2,8,43,exists,"(2,8,17) and (2,i,15) for i<=8"
 13,2,9,43,exists,"from (3,10,44) by derivation"
 13,2,10,43,exists,"from (3,10,44) by derivation"
 13,2,11,43,exists,"ASL(1,q), LS[6369883]"
@@ -19913,131 +19913,131 @@ N,t,k,v,status,justification
 13,2,18,43,exists,"LMW01 Thm 5, affine group, LS[673708802]"
 13,2,19,43,exists,"LMW01 Thm 5, affine group, LS[886458950]"
 13,2,20,43,exists,"ASL(1,q), LS[1063750740]"
-13,2,21,43,open,
-13,2,6,44,open,
-13,2,7,44,open,
-13,2,8,44,open,
-13,2,9,44,open,
+13,2,21,43,exists,root cases at v=15
+13,2,6,44,exists,"(2,6,18) and (2,i,15) for i<=6"
+13,2,7,44,exists,"(2,7,18) and (2,i,15) for i<=7"
+13,2,8,44,exists,"(2,8,18) and (2,i,15) for i<=8"
+13,2,9,44,exists,"(2,9,18) and (2,i,15) for i<=9"
 13,2,10,44,exists,"from (3,10,44) by derivation"
 13,2,11,44,exists,"complement of (2,33,44)"
 13,2,12,44,exists,"from (3,12,44) by derivation"
 13,2,19,44,exists,"complement of (2,25,44)"
 13,2,20,44,exists,"complement of (2,24,44)"
-13,2,21,44,open,
-13,2,22,44,open,
-13,2,7,45,open,
-13,2,8,45,open,
-13,2,9,45,open,
-13,2,10,45,open,
+13,2,21,44,exists,root cases at v=15
+13,2,22,44,exists,root cases at v=15
+13,2,7,45,exists,"(2,7,32) and (2,i,15) for i<=7"
+13,2,8,45,exists,"(2,8,19) and (2,i,15) for i<=8"
+13,2,9,45,exists,"(2,9,19) and (2,i,15) for i<=9"
+13,2,10,45,exists,"(2,10,19) and (2,i,15) for i<=10"
 13,2,11,45,exists,"complement of (2,34,45)"
 13,2,12,45,exists,"complement of (2,33,45)"
 13,2,20,45,exists,"complement of (2,25,45)"
-13,2,21,45,open,
-13,2,22,45,open,
-13,2,8,46,open,
-13,2,9,46,open,
-13,2,10,46,open,
-13,2,11,46,open,
+13,2,21,45,exists,root cases at v=15
+13,2,22,45,exists,root cases at v=15
+13,2,8,46,exists,"(2,8,20) and (2,i,15) for i<=8"
+13,2,9,46,exists,"(2,9,20) and (2,i,15) for i<=9"
+13,2,10,46,exists,"(2,10,20) and (2,i,15) for i<=10"
+13,2,11,46,exists,"(2,11,20) and (2,i,15) for i<=11"
 13,2,12,46,exists,"complement of (2,34,46)"
-13,2,21,46,open,
-13,2,22,46,open,
-13,2,23,46,open,
+13,2,21,46,exists,root cases at v=15
+13,2,22,46,exists,root cases at v=15
+13,2,23,46,exists,root cases at v=15
 13,2,9,47,exists,"ASL(1,q), LS[1260545]"
 13,2,10,47,exists,"ASL(1,q), LS[4790071]"
 13,2,11,47,exists,"ASL(1,q), LS[16112057]"
 13,2,12,47,exists,"ASL(1,q), LS[48336171]"
 13,2,22,47,exists,"ASL(1,q), LS[13722384546]"
-13,2,23,47,open,
+13,2,23,47,exists,root cases at v=15
 13,2,10,48,exists,"complement of (2,38,48)"
 13,2,11,48,exists,"complement of (2,37,48)"
 13,2,12,48,exists,"complement of (2,36,48)"
-13,2,23,48,open,
-13,2,24,48,open,
+13,2,23,48,exists,root cases at v=15
+13,2,24,48,exists,root cases at v=15
 13,2,11,49,exists,"complement of (2,38,49)"
 13,2,12,49,exists,"complement of (2,37,49)"
-13,2,24,49,open,
+13,2,24,49,exists,root cases at v=15
 13,2,12,50,exists,"complement of (2,38,50)"
-13,2,25,50,open,
+13,2,25,50,exists,root cases at v=15
 13,2,3,54,exists,"Lu, Teirlinck"
 13,2,4,54,exists,LOTW07
-13,2,5,54,open,
-13,2,6,54,open,
-13,2,7,54,open,
-13,2,8,54,open,
-13,2,9,54,open,
-13,2,10,54,open,
-13,2,11,54,open,
-13,2,12,54,open,
-13,2,16,54,open,
-13,2,17,54,open,
-13,2,18,54,open,
-13,2,19,54,open,
-13,2,20,54,open,
-13,2,21,54,open,
-13,2,22,54,open,
-13,2,23,54,open,
-13,2,24,54,open,
-13,2,25,54,open,
+13,2,5,54,exists,"(2,5,41) and (2,i,15) for i<=5"
+13,2,6,54,exists,"(2,6,15) and (2,i,15) for i<=6"
+13,2,7,54,exists,"(2,7,15) and (2,i,15) for i<=7"
+13,2,8,54,exists,"(2,8,15) and (2,i,15) for i<=8"
+13,2,9,54,exists,"(2,9,15) and (2,i,15) for i<=9"
+13,2,10,54,exists,"(2,10,15) and (2,i,15) for i<=10"
+13,2,11,54,exists,"(2,11,15) and (2,i,15) for i<=11"
+13,2,12,54,exists,"(2,12,15) and (2,i,15) for i<=12"
+13,2,16,54,exists,root cases at v=15
+13,2,17,54,exists,root cases at v=15
+13,2,18,54,exists,root cases at v=15
+13,2,19,54,exists,root cases at v=15
+13,2,20,54,exists,root cases at v=15
+13,2,21,54,exists,root cases at v=15
+13,2,22,54,exists,root cases at v=15
+13,2,23,54,exists,root cases at v=15
+13,2,24,54,exists,root cases at v=15
+13,2,25,54,exists,root cases at v=15
 13,2,4,55,exists,LOTW07
-13,2,5,55,open,
-13,2,6,55,open,
-13,2,7,55,open,
-13,2,8,55,open,
-13,2,9,55,open,
-13,2,10,55,open,
-13,2,11,55,open,
-13,2,12,55,open,
-13,2,17,55,open,
-13,2,18,55,open,
-13,2,19,55,open,
-13,2,20,55,open,
-13,2,21,55,open,
-13,2,22,55,open,
-13,2,23,55,open,
-13,2,24,55,open,
-13,2,25,55,open,
-13,2,5,56,open,
-13,2,6,56,open,
-13,2,7,56,open,
-13,2,8,56,open,
-13,2,9,56,open,
-13,2,10,56,open,
-13,2,11,56,open,
-13,2,12,56,open,
-13,2,18,56,open,
-13,2,19,56,open,
-13,2,20,56,open,
-13,2,21,56,open,
-13,2,22,56,open,
-13,2,23,56,open,
-13,2,24,56,open,
-13,2,25,56,open,
-13,2,6,57,open,
-13,2,7,57,open,
-13,2,8,57,open,
-13,2,9,57,open,
-13,2,10,57,open,
-13,2,11,57,open,
-13,2,12,57,open,
-13,2,19,57,open,
-13,2,20,57,open,
-13,2,21,57,open,
-13,2,22,57,open,
-13,2,23,57,open,
-13,2,24,57,open,
-13,2,25,57,open,
-13,2,7,58,open,
-13,2,8,58,open,
-13,2,9,58,open,
-13,2,10,58,open,
-13,2,11,58,open,
-13,2,12,58,open,
-13,2,20,58,open,
-13,2,21,58,open,
-13,2,22,58,open,
-13,2,23,58,open,
-13,2,24,58,open,
-13,2,25,58,open,
+13,2,5,55,exists,"(2,5,42) and (2,i,15) for i<=5"
+13,2,6,55,exists,"(2,6,16) and (2,i,15) for i<=6"
+13,2,7,55,exists,"(2,7,16) and (2,i,15) for i<=7"
+13,2,8,55,exists,"(2,8,16) and (2,i,15) for i<=8"
+13,2,9,55,exists,"(2,9,16) and (2,i,15) for i<=9"
+13,2,10,55,exists,"(2,10,16) and (2,i,15) for i<=10"
+13,2,11,55,exists,"(2,11,16) and (2,i,15) for i<=11"
+13,2,12,55,exists,"(2,12,16) and (2,i,15) for i<=12"
+13,2,17,55,exists,root cases at v=15
+13,2,18,55,exists,root cases at v=15
+13,2,19,55,exists,root cases at v=15
+13,2,20,55,exists,root cases at v=15
+13,2,21,55,exists,root cases at v=15
+13,2,22,55,exists,root cases at v=15
+13,2,23,55,exists,root cases at v=15
+13,2,24,55,exists,root cases at v=15
+13,2,25,55,exists,root cases at v=15
+13,2,5,56,exists,"(2,5,43) and (2,i,15) for i<=5"
+13,2,6,56,exists,"(2,6,17) and (2,i,15) for i<=6"
+13,2,7,56,exists,"(2,7,17) and (2,i,15) for i<=7"
+13,2,8,56,exists,"(2,8,17) and (2,i,15) for i<=8"
+13,2,9,56,exists,"(2,9,17) and (2,i,15) for i<=9"
+13,2,10,56,exists,"(2,10,17) and (2,i,15) for i<=10"
+13,2,11,56,exists,"(2,11,17) and (2,i,15) for i<=11"
+13,2,12,56,exists,"(2,12,17) and (2,i,15) for i<=12"
+13,2,18,56,exists,root cases at v=15
+13,2,19,56,exists,root cases at v=15
+13,2,20,56,exists,root cases at v=15
+13,2,21,56,exists,root cases at v=15
+13,2,22,56,exists,root cases at v=15
+13,2,23,56,exists,root cases at v=15
+13,2,24,56,exists,root cases at v=15
+13,2,25,56,exists,root cases at v=15
+13,2,6,57,exists,"(2,6,18) and (2,i,15) for i<=6"
+13,2,7,57,exists,"(2,7,18) and (2,i,15) for i<=7"
+13,2,8,57,exists,"(2,8,18) and (2,i,15) for i<=8"
+13,2,9,57,exists,"(2,9,18) and (2,i,15) for i<=9"
+13,2,10,57,exists,"(2,10,18) and (2,i,15) for i<=10"
+13,2,11,57,exists,"(2,11,18) and (2,i,15) for i<=11"
+13,2,12,57,exists,"(2,12,18) and (2,i,15) for i<=12"
+13,2,19,57,exists,root cases at v=15
+13,2,20,57,exists,root cases at v=15
+13,2,21,57,exists,root cases at v=15
+13,2,22,57,exists,root cases at v=15
+13,2,23,57,exists,root cases at v=15
+13,2,24,57,exists,root cases at v=15
+13,2,25,57,exists,root cases at v=15
+13,2,7,58,exists,"(2,7,32) and (2,i,15) for i<=7"
+13,2,8,58,exists,"(2,8,19) and (2,i,15) for i<=8"
+13,2,9,58,exists,"(2,9,19) and (2,i,15) for i<=9"
+13,2,10,58,exists,"(2,10,19) and (2,i,15) for i<=10"
+13,2,11,58,exists,"(2,11,19) and (2,i,15) for i<=11"
+13,2,12,58,exists,"(2,12,19) and (2,i,15) for i<=12"
+13,2,20,58,exists,root cases at v=15
+13,2,21,58,exists,root cases at v=15
+13,2,22,58,exists,root cases at v=15
+13,2,23,58,exists,root cases at v=15
+13,2,24,58,exists,root cases at v=15
+13,2,25,58,exists,root cases at v=15
 13,2,8,59,exists,"ASL(1,q), LS[1296009]"
 13,2,9,59,exists,"ASL(1,q), LS[7344051]"
 13,2,10,59,exists,"ASL(1,q), LS[36720255]"
@@ -20074,221 +20074,221 @@ N,t,k,v,status,justification
 13,2,6,67,exists,"LMW01 Thm 5, affine group, LS[45136]"
 13,2,7,67,exists,"LMW01 Thm 5, affine group, LS[393328]"
 13,2,8,67,exists,"ASL(1,q), LS[2949960]"
-13,2,9,67,open,
-13,2,10,67,open,
-13,2,11,67,open,
-13,2,12,67,open,
+13,2,9,67,exists,"(2,9,15) and (2,i,15) for i<=9"
+13,2,10,67,exists,"(2,10,15) and (2,i,15) for i<=10"
+13,2,11,67,exists,"(2,11,15) and (2,i,15) for i<=11"
+13,2,12,67,exists,"(2,12,15) and (2,i,15) for i<=12"
 13,2,16,67,exists,"LMW01 Thm 5, affine group, LS[508271323092]"
 13,2,17,67,exists,"ASL(1,q), LS[1524813969276]"
 13,2,18,67,exists,"LMW01 Thm 5, affine group, LS[4235594359100]"
 13,2,19,67,exists,"LMW01 Thm 5, affine group, LS[10923374926100]"
 13,2,20,67,exists,"ASL(1,q), LS[26216099822640]"
 13,2,21,67,exists,"LMW01 Thm 5, affine group, LS[58674128174480]"
-13,2,22,67,open,
-13,2,23,67,open,
+13,2,22,67,exists,root cases at v=15
+13,2,23,67,exists,root cases at v=15
 13,2,24,67,exists,"LMW01 Thm 5, affine group, LS[440055961308600]"
 13,2,25,67,exists,"LMW01 Thm 5, affine group, LS[756896253450792]"
 13,2,29,67,exists,"ASL(1,q), LS[3566982343848560]"
-13,2,30,67,open,
-13,2,31,67,open,
+13,2,30,67,exists,root cases at v=15
+13,2,31,67,exists,root cases at v=15
 13,2,32,67,exists,"ASL(1,q), LS[6066746583206946]"
-13,2,33,67,open,
+13,2,33,67,exists,root cases at v=15
 13,2,4,68,exists,LOTW07
 13,2,5,68,exists,"(2,4,67) and (2,5,67)"
 13,2,6,68,exists,"complement of (2,62,68)"
 13,2,7,68,exists,"complement of (2,61,68)"
 13,2,8,68,exists,"complement of (2,60,68)"
-13,2,9,68,open,
-13,2,10,68,open,
-13,2,11,68,open,
-13,2,12,68,open,
+13,2,9,68,exists,"(2,9,16) and (2,i,15) for i<=9"
+13,2,10,68,exists,"(2,10,16) and (2,i,15) for i<=10"
+13,2,11,68,exists,"(2,11,16) and (2,i,15) for i<=11"
+13,2,12,68,exists,"(2,12,16) and (2,i,15) for i<=12"
 13,2,17,68,exists,"complement of (2,51,68)"
 13,2,18,68,exists,"complement of (2,50,68)"
 13,2,19,68,exists,"complement of (2,49,68)"
 13,2,20,68,exists,"complement of (2,48,68)"
 13,2,21,68,exists,"complement of (2,47,68)"
-13,2,22,68,open,
-13,2,23,68,open,
-13,2,24,68,open,
+13,2,22,68,exists,root cases at v=15
+13,2,23,68,exists,root cases at v=15
+13,2,24,68,exists,root cases at v=15
 13,2,25,68,exists,"complement of (2,43,68)"
-13,2,30,68,open,
-13,2,31,68,open,
-13,2,32,68,open,
-13,2,33,68,open,
-13,2,34,68,open,
+13,2,30,68,exists,root cases at v=15
+13,2,31,68,exists,root cases at v=15
+13,2,32,68,exists,root cases at v=15
+13,2,33,68,exists,root cases at v=15
+13,2,34,68,exists,root cases at v=15
 13,2,5,69,exists,"(2,4,68) and (2,5,68)"
 13,2,6,69,exists,"(2,5,68) and (2,6,68)"
 13,2,7,69,exists,"complement of (2,62,69)"
 13,2,8,69,exists,"complement of (2,61,69)"
-13,2,9,69,open,
-13,2,10,69,open,
-13,2,11,69,open,
-13,2,12,69,open,
+13,2,9,69,exists,"(2,9,17) and (2,i,15) for i<=9"
+13,2,10,69,exists,"(2,10,17) and (2,i,15) for i<=10"
+13,2,11,69,exists,"(2,11,17) and (2,i,15) for i<=11"
+13,2,12,69,exists,"(2,12,17) and (2,i,15) for i<=12"
 13,2,18,69,exists,"complement of (2,51,69)"
 13,2,19,69,exists,"complement of (2,50,69)"
 13,2,20,69,exists,"complement of (2,49,69)"
 13,2,21,69,exists,"complement of (2,48,69)"
-13,2,22,69,open,
-13,2,23,69,open,
-13,2,24,69,open,
-13,2,25,69,open,
-13,2,31,69,open,
-13,2,32,69,open,
-13,2,33,69,open,
-13,2,34,69,open,
+13,2,22,69,exists,root cases at v=15
+13,2,23,69,exists,root cases at v=15
+13,2,24,69,exists,root cases at v=15
+13,2,25,69,exists,root cases at v=15
+13,2,31,69,exists,root cases at v=15
+13,2,32,69,exists,root cases at v=15
+13,2,33,69,exists,root cases at v=15
+13,2,34,69,exists,root cases at v=15
 13,2,6,70,exists,"(2,5,69) and (2,6,69)"
 13,2,7,70,exists,"(2,6,69) and (2,7,69)"
 13,2,8,70,exists,"complement of (2,62,70)"
-13,2,9,70,open,
-13,2,10,70,open,
-13,2,11,70,open,
-13,2,12,70,open,
+13,2,9,70,exists,"(2,9,18) and (2,i,15) for i<=9"
+13,2,10,70,exists,"(2,10,18) and (2,i,15) for i<=10"
+13,2,11,70,exists,"(2,11,18) and (2,i,15) for i<=11"
+13,2,12,70,exists,"(2,12,18) and (2,i,15) for i<=12"
 13,2,19,70,exists,"complement of (2,51,70)"
 13,2,20,70,exists,"complement of (2,50,70)"
 13,2,21,70,exists,"complement of (2,49,70)"
-13,2,22,70,open,
-13,2,23,70,open,
-13,2,24,70,open,
-13,2,25,70,open,
-13,2,32,70,open,
-13,2,33,70,open,
-13,2,34,70,open,
-13,2,35,70,open,
+13,2,22,70,exists,root cases at v=15
+13,2,23,70,exists,root cases at v=15
+13,2,24,70,exists,root cases at v=15
+13,2,25,70,exists,root cases at v=15
+13,2,32,70,exists,root cases at v=15
+13,2,33,70,exists,root cases at v=15
+13,2,34,70,exists,root cases at v=15
+13,2,35,70,exists,root cases at v=15
 13,2,7,71,exists,"(2,6,70) and (2,7,70)"
 13,2,8,71,exists,"(2,7,70) and (2,8,70)"
 13,2,9,71,exists,"ASL(1,q), LS[29969368]"
-13,2,10,71,open,
-13,2,11,71,open,
+13,2,10,71,exists,"(2,10,19) and (2,i,15) for i<=10"
+13,2,11,71,exists,"(2,11,19) and (2,i,15) for i<=11"
 13,2,12,71,exists,"ASL(1,q), LS[5152006808]"
 13,2,20,71,exists,"complement of (2,51,71)"
 13,2,21,71,exists,"complement of (2,50,71)"
-13,2,22,71,open,
+13,2,22,71,exists,root cases at v=15
 13,2,23,71,exists,"ASL(1,q), LS[1066433489213820]"
 13,2,24,71,exists,"ASL(1,q), LS[2132866978427640]"
-13,2,25,71,open,
+13,2,25,71,exists,root cases at v=15
 13,2,33,71,exists,"ASL(1,q), LS[75358255211129618]"
 13,2,34,71,exists,"ASL(1,q), LS[84223932294791926]"
-13,2,35,71,open,
+13,2,35,71,exists,root cases at v=15
 13,2,8,72,exists,"(2,7,71) and (2,8,71)"
 13,2,9,72,exists,"(2,8,71) and (2,9,71)"
-13,2,10,72,open,
-13,2,11,72,open,
-13,2,12,72,open,
+13,2,10,72,exists,"(2,10,20) and (2,i,15) for i<=10"
+13,2,11,72,exists,"(2,11,20) and (2,i,15) for i<=11"
+13,2,12,72,exists,"(2,12,20) and (2,i,15) for i<=12"
 13,2,21,72,exists,"complement of (2,51,72)"
-13,2,22,72,open,
-13,2,23,72,open,
+13,2,22,72,exists,root cases at v=15
+13,2,23,72,exists,root cases at v=15
 13,2,24,72,exists,"complement of (2,48,72)"
-13,2,25,72,open,
+13,2,25,72,exists,root cases at v=15
 13,2,34,72,exists,"complement of (2,38,72)"
-13,2,35,72,open,
-13,2,36,72,open,
+13,2,35,72,exists,root cases at v=15
+13,2,36,72,exists,root cases at v=15
 13,2,9,73,exists,"(2,8,72) and (2,9,72)"
-13,2,10,73,open,
+13,2,10,73,exists,"(2,10,21) and (2,i,15) for i<=10"
 13,2,11,73,exists,"LMW01 Thm 5, affine group, LS[677035268]"
-13,2,12,73,open,
-13,2,22,73,open,
+13,2,12,73,exists,"(2,12,21) and (2,i,15) for i<=12"
+13,2,22,73,exists,root cases at v=15
 13,2,23,73,exists,"LMW01 Thm 5, affine group, LS[1081668253345446]"
-13,2,24,73,open,
-13,2,25,73,open,
+13,2,24,73,exists,root cases at v=15
+13,2,25,73,exists,root cases at v=15
 13,2,35,73,exists,"LMW01 Thm 5, affine group, LS[157365768235005967]"
-13,2,36,73,open,
-13,2,10,74,open,
-13,2,11,74,open,
-13,2,12,74,open,
-13,2,23,74,open,
-13,2,24,74,open,
-13,2,25,74,open,
-13,2,36,74,open,
-13,2,37,74,open,
-13,2,11,75,open,
-13,2,12,75,open,
-13,2,24,75,open,
-13,2,25,75,open,
-13,2,37,75,open,
-13,2,12,76,open,
-13,2,25,76,open,
-13,2,38,76,open,
+13,2,36,73,exists,root cases at v=15
+13,2,10,74,exists,"(2,10,22) and (2,i,15) for i<=10"
+13,2,11,74,exists,"(2,11,22) and (2,i,15) for i<=11"
+13,2,12,74,exists,"(2,12,22) and (2,i,15) for i<=12"
+13,2,23,74,exists,root cases at v=15
+13,2,24,74,exists,root cases at v=15
+13,2,25,74,exists,root cases at v=15
+13,2,36,74,exists,root cases at v=15
+13,2,37,74,exists,root cases at v=15
+13,2,11,75,exists,"(2,11,23) and (2,i,15) for i<=11"
+13,2,12,75,exists,"(2,12,23) and (2,i,15) for i<=12"
+13,2,24,75,exists,root cases at v=15
+13,2,25,75,exists,root cases at v=15
+13,2,37,75,exists,root cases at v=15
+13,2,12,76,exists,"(2,12,24) and (2,i,15) for i<=12"
+13,2,25,76,exists,root cases at v=15
+13,2,38,76,exists,root cases at v=15
 13,2,3,80,exists,"Lu, Teirlinck"
 13,2,4,80,exists,LOTW07
-13,2,5,80,open,
-13,2,6,80,open,
-13,2,7,80,exists,"(2,7,15) and (2,i,67) for i<=7"
-13,2,8,80,exists,"(2,8,15) and (2,i,67) for i<=8"
-13,2,9,80,open,
-13,2,10,80,open,
-13,2,11,80,open,
-13,2,12,80,open,
-13,2,16,80,open,
-13,2,17,80,open,
-13,2,18,80,open,
-13,2,19,80,open,
-13,2,20,80,open,
-13,2,21,80,open,
-13,2,22,80,open,
-13,2,23,80,open,
-13,2,24,80,open,
-13,2,25,80,open,
-13,2,29,80,open,
-13,2,30,80,open,
-13,2,31,80,open,
-13,2,32,80,open,
-13,2,33,80,open,
-13,2,34,80,open,
-13,2,35,80,open,
-13,2,36,80,open,
-13,2,37,80,open,
-13,2,38,80,open,
+13,2,5,80,exists,"(2,5,67) and (2,i,15) for i<=5"
+13,2,6,80,exists,"(2,6,67) and (2,i,15) for i<=6"
+13,2,7,80,exists,"(2,7,67) and (2,i,15) for i<=7"
+13,2,8,80,exists,"(2,8,15) and (2,i,15) for i<=8"
+13,2,9,80,exists,"(2,9,15) and (2,i,15) for i<=9"
+13,2,10,80,exists,"(2,10,15) and (2,i,15) for i<=10"
+13,2,11,80,exists,"(2,11,15) and (2,i,15) for i<=11"
+13,2,12,80,exists,"(2,12,15) and (2,i,15) for i<=12"
+13,2,16,80,exists,root cases at v=15
+13,2,17,80,exists,root cases at v=15
+13,2,18,80,exists,root cases at v=15
+13,2,19,80,exists,root cases at v=15
+13,2,20,80,exists,root cases at v=15
+13,2,21,80,exists,root cases at v=15
+13,2,22,80,exists,root cases at v=15
+13,2,23,80,exists,root cases at v=15
+13,2,24,80,exists,root cases at v=15
+13,2,25,80,exists,root cases at v=15
+13,2,29,80,exists,root cases at v=15
+13,2,30,80,exists,root cases at v=15
+13,2,31,80,exists,root cases at v=15
+13,2,32,80,exists,root cases at v=15
+13,2,33,80,exists,root cases at v=15
+13,2,34,80,exists,root cases at v=15
+13,2,35,80,exists,root cases at v=15
+13,2,36,80,exists,root cases at v=15
+13,2,37,80,exists,root cases at v=15
+13,2,38,80,exists,root cases at v=15
 13,2,4,81,exists,LOTW07
-13,2,5,81,open,
-13,2,6,81,open,
-13,2,7,81,open,
-13,2,8,81,exists,"(2,8,16) and (2,i,67) for i<=8"
-13,2,9,81,open,
-13,2,10,81,open,
-13,2,11,81,open,
-13,2,12,81,open,
-13,2,17,81,open,
-13,2,18,81,open,
+13,2,5,81,exists,"(2,5,68) and (2,i,15) for i<=5"
+13,2,6,81,exists,"(2,6,68) and (2,i,15) for i<=6"
+13,2,7,81,exists,"(2,7,68) and (2,i,15) for i<=7"
+13,2,8,81,exists,"(2,8,16) and (2,i,15) for i<=8"
+13,2,9,81,exists,"(2,9,16) and (2,i,15) for i<=9"
+13,2,10,81,exists,"(2,10,16) and (2,i,15) for i<=10"
+13,2,11,81,exists,"(2,11,16) and (2,i,15) for i<=11"
+13,2,12,81,exists,"(2,12,16) and (2,i,15) for i<=12"
+13,2,17,81,exists,root cases at v=15
+13,2,18,81,exists,root cases at v=15
 13,2,19,81,exists,"LMW01 Thm 5, affine group, LS[233693557787690]"
-13,2,20,81,open,
-13,2,21,81,open,
+13,2,20,81,exists,root cases at v=15
+13,2,21,81,exists,root cases at v=15
 13,2,22,81,exists,"LMW01 Thm 5, affine group, LS[5739149581513270]"
 13,2,23,81,exists,"LMW01 Thm 5, affine group, LS[14722166317794910]"
-13,2,24,81,open,
-13,2,25,81,open,
-13,2,30,81,open,
-13,2,31,81,open,
-13,2,32,81,open,
-13,2,33,81,open,
+13,2,24,81,exists,root cases at v=15
+13,2,25,81,exists,root cases at v=15
+13,2,30,81,exists,root cases at v=15
+13,2,31,81,exists,root cases at v=15
+13,2,32,81,exists,root cases at v=15
+13,2,33,81,exists,root cases at v=15
 13,2,34,81,exists,"LMW01 Thm 5, affine group, LS[11716707300305713615]"
-13,2,35,81,open,
-13,2,36,81,open,
-13,2,37,81,open,
+13,2,35,81,exists,root cases at v=15
+13,2,36,81,exists,root cases at v=15
+13,2,37,81,exists,root cases at v=15
 13,2,38,81,exists,"LMW01 Thm 5, affine group, LS[28312002948168104165]"
-13,2,5,82,open,
-13,2,6,82,open,
-13,2,7,82,open,
-13,2,8,82,open,
-13,2,9,82,open,
-13,2,10,82,open,
-13,2,11,82,open,
-13,2,12,82,open,
-13,2,18,82,open,
-13,2,19,82,open,
-13,2,20,82,open,
-13,2,21,82,open,
-13,2,22,82,open,
+13,2,5,82,exists,"(2,5,69) and (2,i,15) for i<=5"
+13,2,6,82,exists,"(2,6,69) and (2,i,15) for i<=6"
+13,2,7,82,exists,"(2,7,69) and (2,i,15) for i<=7"
+13,2,8,82,exists,"(2,8,17) and (2,i,15) for i<=8"
+13,2,9,82,exists,"(2,9,17) and (2,i,15) for i<=9"
+13,2,10,82,exists,"(2,10,17) and (2,i,15) for i<=10"
+13,2,11,82,exists,"(2,11,17) and (2,i,15) for i<=11"
+13,2,12,82,exists,"(2,12,17) and (2,i,15) for i<=12"
+13,2,18,82,exists,root cases at v=15
+13,2,19,82,exists,root cases at v=15
+13,2,20,82,exists,root cases at v=15
+13,2,21,82,exists,root cases at v=15
+13,2,22,82,exists,root cases at v=15
 13,2,23,82,exists,"complement of (2,59,82)"
-13,2,24,82,open,
-13,2,25,82,open,
-13,2,31,82,open,
-13,2,32,82,open,
-13,2,33,82,open,
-13,2,34,82,open,
-13,2,35,82,open,
-13,2,36,82,open,
-13,2,37,82,open,
-13,2,38,82,open,
+13,2,24,82,exists,root cases at v=15
+13,2,25,82,exists,root cases at v=15
+13,2,31,82,exists,root cases at v=15
+13,2,32,82,exists,root cases at v=15
+13,2,33,82,exists,root cases at v=15
+13,2,34,82,exists,root cases at v=15
+13,2,35,82,exists,root cases at v=15
+13,2,36,82,exists,root cases at v=15
+13,2,37,82,exists,root cases at v=15
+13,2,38,82,exists,root cases at v=15
 13,2,6,83,exists,"ASL(1,q), LS[110916]"
 13,2,7,83,exists,"ASL(1,q), LS[1220076]"
 13,2,8,83,exists,"ASL(1,q), LS[11590722]"
@@ -20375,188 +20375,188 @@ N,t,k,v,status,justification
 13,2,38,89,exists,"LMW01 Thm 5, affine group, LS[2598095336746999589721]"
 13,2,3,93,exists,"Lu, Teirlinck"
 13,2,4,93,exists,LOTW07
-13,2,5,93,open,
-13,2,6,93,open,
-13,2,7,93,open,
-13,2,8,93,open,
-13,2,9,93,open,
-13,2,10,93,open,
-13,2,11,93,open,
-13,2,12,93,open,
-13,2,16,93,open,
-13,2,17,93,open,
-13,2,18,93,open,
-13,2,19,93,open,
-13,2,20,93,open,
-13,2,21,93,open,
-13,2,22,93,open,
-13,2,23,93,open,
-13,2,24,93,open,
-13,2,25,93,open,
-13,2,29,93,open,
-13,2,30,93,open,
-13,2,31,93,open,
-13,2,32,93,open,
-13,2,33,93,open,
-13,2,34,93,open,
-13,2,35,93,open,
-13,2,36,93,open,
-13,2,37,93,open,
-13,2,38,93,open,
-13,2,42,93,open,
-13,2,43,93,open,
-13,2,44,93,open,
-13,2,45,93,open,
-13,2,46,93,open,
+13,2,5,93,exists,"(2,5,67) and (2,i,15) for i<=5"
+13,2,6,93,exists,"(2,6,67) and (2,i,15) for i<=6"
+13,2,7,93,exists,"(2,7,67) and (2,i,15) for i<=7"
+13,2,8,93,exists,"(2,8,15) and (2,i,15) for i<=8"
+13,2,9,93,exists,"(2,9,15) and (2,i,15) for i<=9"
+13,2,10,93,exists,"(2,10,15) and (2,i,15) for i<=10"
+13,2,11,93,exists,"(2,11,15) and (2,i,15) for i<=11"
+13,2,12,93,exists,"(2,12,15) and (2,i,15) for i<=12"
+13,2,16,93,exists,root cases at v=15
+13,2,17,93,exists,root cases at v=15
+13,2,18,93,exists,root cases at v=15
+13,2,19,93,exists,root cases at v=15
+13,2,20,93,exists,root cases at v=15
+13,2,21,93,exists,root cases at v=15
+13,2,22,93,exists,root cases at v=15
+13,2,23,93,exists,root cases at v=15
+13,2,24,93,exists,root cases at v=15
+13,2,25,93,exists,root cases at v=15
+13,2,29,93,exists,root cases at v=15
+13,2,30,93,exists,root cases at v=15
+13,2,31,93,exists,root cases at v=15
+13,2,32,93,exists,root cases at v=15
+13,2,33,93,exists,root cases at v=15
+13,2,34,93,exists,root cases at v=15
+13,2,35,93,exists,root cases at v=15
+13,2,36,93,exists,root cases at v=15
+13,2,37,93,exists,root cases at v=15
+13,2,38,93,exists,root cases at v=15
+13,2,42,93,exists,root cases at v=15
+13,2,43,93,exists,root cases at v=15
+13,2,44,93,exists,root cases at v=15
+13,2,45,93,exists,root cases at v=15
+13,2,46,93,exists,root cases at v=15
 13,2,4,94,exists,LOTW07
-13,2,5,94,open,
-13,2,6,94,exists,"(2,6,29) and (2,i,67) for i<=6"
-13,2,7,94,exists,"(2,7,29) and (2,i,67) for i<=7"
-13,2,8,94,exists,"(2,8,29) and (2,i,67) for i<=8"
-13,2,9,94,open,
-13,2,10,94,open,
-13,2,11,94,open,
-13,2,12,94,open,
-13,2,17,94,open,
-13,2,18,94,open,
-13,2,19,94,open,
-13,2,20,94,open,
-13,2,21,94,open,
-13,2,22,94,open,
-13,2,23,94,open,
-13,2,24,94,open,
-13,2,25,94,open,
-13,2,30,94,open,
-13,2,31,94,open,
-13,2,32,94,open,
-13,2,33,94,open,
-13,2,34,94,open,
-13,2,35,94,open,
-13,2,36,94,open,
-13,2,37,94,open,
-13,2,38,94,open,
-13,2,43,94,open,
-13,2,44,94,open,
-13,2,45,94,open,
-13,2,46,94,open,
-13,2,47,94,open,
-13,2,5,95,open,
-13,2,6,95,open,
-13,2,7,95,exists,"(2,7,30) and (2,i,67) for i<=7"
-13,2,8,95,exists,"(2,8,30) and (2,i,67) for i<=8"
-13,2,9,95,open,
-13,2,10,95,open,
-13,2,11,95,open,
-13,2,12,95,open,
-13,2,18,95,open,
-13,2,19,95,open,
-13,2,20,95,open,
-13,2,21,95,open,
-13,2,22,95,open,
-13,2,23,95,open,
-13,2,24,95,open,
-13,2,25,95,open,
-13,2,31,95,open,
-13,2,32,95,open,
-13,2,33,95,open,
-13,2,34,95,open,
-13,2,35,95,open,
-13,2,36,95,open,
-13,2,37,95,open,
-13,2,38,95,open,
-13,2,44,95,open,
-13,2,45,95,open,
-13,2,46,95,open,
-13,2,47,95,open,
-13,2,6,96,open,
-13,2,7,96,exists,"(2,7,31) and (2,i,67) for i<=7"
-13,2,8,96,exists,"(2,8,31) and (2,i,67) for i<=8"
-13,2,9,96,open,
-13,2,10,96,open,
-13,2,11,96,open,
-13,2,12,96,open,
-13,2,19,96,open,
-13,2,20,96,open,
-13,2,21,96,open,
-13,2,22,96,open,
-13,2,23,96,open,
-13,2,24,96,open,
-13,2,25,96,open,
-13,2,32,96,open,
-13,2,33,96,open,
-13,2,34,96,open,
-13,2,35,96,open,
-13,2,36,96,open,
-13,2,37,96,open,
-13,2,38,96,open,
-13,2,45,96,open,
-13,2,46,96,open,
-13,2,47,96,open,
-13,2,48,96,open,
-13,2,7,97,exists,"(2,7,32) and (2,i,67) for i<=7"
-13,2,8,97,exists,"(2,8,32) and (2,i,67) for i<=8"
-13,2,9,97,open,
-13,2,10,97,open,
-13,2,11,97,open,
-13,2,12,97,open,
-13,2,20,97,open,
-13,2,21,97,open,
-13,2,22,97,open,
-13,2,23,97,open,
-13,2,24,97,open,
-13,2,25,97,open,
-13,2,33,97,open,
-13,2,34,97,open,
+13,2,5,94,exists,"(2,5,68) and (2,i,15) for i<=5"
+13,2,6,94,exists,"(2,6,68) and (2,i,15) for i<=6"
+13,2,7,94,exists,"(2,7,68) and (2,i,15) for i<=7"
+13,2,8,94,exists,"(2,8,16) and (2,i,15) for i<=8"
+13,2,9,94,exists,"(2,9,16) and (2,i,15) for i<=9"
+13,2,10,94,exists,"(2,10,16) and (2,i,15) for i<=10"
+13,2,11,94,exists,"(2,11,16) and (2,i,15) for i<=11"
+13,2,12,94,exists,"(2,12,16) and (2,i,15) for i<=12"
+13,2,17,94,exists,root cases at v=15
+13,2,18,94,exists,root cases at v=15
+13,2,19,94,exists,root cases at v=15
+13,2,20,94,exists,root cases at v=15
+13,2,21,94,exists,root cases at v=15
+13,2,22,94,exists,root cases at v=15
+13,2,23,94,exists,root cases at v=15
+13,2,24,94,exists,root cases at v=15
+13,2,25,94,exists,root cases at v=15
+13,2,30,94,exists,root cases at v=15
+13,2,31,94,exists,root cases at v=15
+13,2,32,94,exists,root cases at v=15
+13,2,33,94,exists,root cases at v=15
+13,2,34,94,exists,root cases at v=15
+13,2,35,94,exists,root cases at v=15
+13,2,36,94,exists,root cases at v=15
+13,2,37,94,exists,root cases at v=15
+13,2,38,94,exists,root cases at v=15
+13,2,43,94,exists,root cases at v=15
+13,2,44,94,exists,root cases at v=15
+13,2,45,94,exists,root cases at v=15
+13,2,46,94,exists,root cases at v=15
+13,2,47,94,exists,root cases at v=15
+13,2,5,95,exists,"(2,5,69) and (2,i,15) for i<=5"
+13,2,6,95,exists,"(2,6,69) and (2,i,15) for i<=6"
+13,2,7,95,exists,"(2,7,69) and (2,i,15) for i<=7"
+13,2,8,95,exists,"(2,8,17) and (2,i,15) for i<=8"
+13,2,9,95,exists,"(2,9,17) and (2,i,15) for i<=9"
+13,2,10,95,exists,"(2,10,17) and (2,i,15) for i<=10"
+13,2,11,95,exists,"(2,11,17) and (2,i,15) for i<=11"
+13,2,12,95,exists,"(2,12,17) and (2,i,15) for i<=12"
+13,2,18,95,exists,root cases at v=15
+13,2,19,95,exists,root cases at v=15
+13,2,20,95,exists,root cases at v=15
+13,2,21,95,exists,root cases at v=15
+13,2,22,95,exists,root cases at v=15
+13,2,23,95,exists,root cases at v=15
+13,2,24,95,exists,root cases at v=15
+13,2,25,95,exists,root cases at v=15
+13,2,31,95,exists,root cases at v=15
+13,2,32,95,exists,root cases at v=15
+13,2,33,95,exists,root cases at v=15
+13,2,34,95,exists,root cases at v=15
+13,2,35,95,exists,root cases at v=15
+13,2,36,95,exists,root cases at v=15
+13,2,37,95,exists,root cases at v=15
+13,2,38,95,exists,root cases at v=15
+13,2,44,95,exists,root cases at v=15
+13,2,45,95,exists,root cases at v=15
+13,2,46,95,exists,root cases at v=15
+13,2,47,95,exists,root cases at v=15
+13,2,6,96,exists,"(2,6,70) and (2,i,15) for i<=6"
+13,2,7,96,exists,"(2,7,70) and (2,i,15) for i<=7"
+13,2,8,96,exists,"(2,8,18) and (2,i,15) for i<=8"
+13,2,9,96,exists,"(2,9,18) and (2,i,15) for i<=9"
+13,2,10,96,exists,"(2,10,18) and (2,i,15) for i<=10"
+13,2,11,96,exists,"(2,11,18) and (2,i,15) for i<=11"
+13,2,12,96,exists,"(2,12,18) and (2,i,15) for i<=12"
+13,2,19,96,exists,root cases at v=15
+13,2,20,96,exists,root cases at v=15
+13,2,21,96,exists,root cases at v=15
+13,2,22,96,exists,root cases at v=15
+13,2,23,96,exists,root cases at v=15
+13,2,24,96,exists,root cases at v=15
+13,2,25,96,exists,root cases at v=15
+13,2,32,96,exists,root cases at v=15
+13,2,33,96,exists,root cases at v=15
+13,2,34,96,exists,root cases at v=15
+13,2,35,96,exists,root cases at v=15
+13,2,36,96,exists,root cases at v=15
+13,2,37,96,exists,root cases at v=15
+13,2,38,96,exists,root cases at v=15
+13,2,45,96,exists,root cases at v=15
+13,2,46,96,exists,root cases at v=15
+13,2,47,96,exists,root cases at v=15
+13,2,48,96,exists,root cases at v=15
+13,2,7,97,exists,"(2,7,32) and (2,i,15) for i<=7"
+13,2,8,97,exists,"(2,8,19) and (2,i,15) for i<=8"
+13,2,9,97,exists,"(2,9,19) and (2,i,15) for i<=9"
+13,2,10,97,exists,"(2,10,19) and (2,i,15) for i<=10"
+13,2,11,97,exists,"(2,11,19) and (2,i,15) for i<=11"
+13,2,12,97,exists,"(2,12,19) and (2,i,15) for i<=12"
+13,2,20,97,exists,root cases at v=15
+13,2,21,97,exists,root cases at v=15
+13,2,22,97,exists,root cases at v=15
+13,2,23,97,exists,root cases at v=15
+13,2,24,97,exists,root cases at v=15
+13,2,25,97,exists,root cases at v=15
+13,2,33,97,exists,root cases at v=15
+13,2,34,97,exists,root cases at v=15
 13,2,35,97,exists,"LMW01 Thm 5, affine group, LS[31766575158306595090809]"
-13,2,36,97,open,
-13,2,37,97,open,
+13,2,36,97,exists,root cases at v=15
+13,2,37,97,exists,root cases at v=15
 13,2,38,97,exists,"LMW01 Thm 5, affine group, LS[142414873457462710565955]"
-13,2,46,97,open,
+13,2,46,97,exists,root cases at v=15
 13,2,47,97,exists,"LMW01 Thm 5, affine group, LS[1313278982421693654779919]"
-13,2,48,97,open,
-13,2,8,98,exists,"(2,8,33) and (2,i,67) for i<=8"
-13,2,9,98,open,
-13,2,10,98,open,
-13,2,11,98,open,
-13,2,12,98,open,
-13,2,21,98,open,
-13,2,22,98,open,
-13,2,23,98,open,
-13,2,24,98,open,
-13,2,25,98,open,
-13,2,34,98,open,
-13,2,35,98,open,
-13,2,36,98,open,
-13,2,37,98,open,
-13,2,38,98,open,
-13,2,47,98,open,
-13,2,48,98,open,
-13,2,49,98,open,
-13,2,9,99,open,
-13,2,10,99,open,
-13,2,11,99,open,
-13,2,12,99,open,
-13,2,22,99,open,
-13,2,23,99,open,
-13,2,24,99,open,
-13,2,25,99,open,
-13,2,35,99,open,
-13,2,36,99,open,
-13,2,37,99,open,
-13,2,38,99,open,
-13,2,48,99,open,
-13,2,49,99,open,
-13,2,10,100,open,
-13,2,11,100,open,
-13,2,12,100,open,
-13,2,23,100,open,
-13,2,24,100,open,
-13,2,25,100,open,
-13,2,36,100,open,
-13,2,37,100,open,
-13,2,38,100,open,
-13,2,49,100,open,
-13,2,50,100,open,
+13,2,48,97,exists,root cases at v=15
+13,2,8,98,exists,"(2,8,20) and (2,i,15) for i<=8"
+13,2,9,98,exists,"(2,9,20) and (2,i,15) for i<=9"
+13,2,10,98,exists,"(2,10,20) and (2,i,15) for i<=10"
+13,2,11,98,exists,"(2,11,20) and (2,i,15) for i<=11"
+13,2,12,98,exists,"(2,12,20) and (2,i,15) for i<=12"
+13,2,21,98,exists,root cases at v=15
+13,2,22,98,exists,root cases at v=15
+13,2,23,98,exists,root cases at v=15
+13,2,24,98,exists,root cases at v=15
+13,2,25,98,exists,root cases at v=15
+13,2,34,98,exists,root cases at v=15
+13,2,35,98,exists,root cases at v=15
+13,2,36,98,exists,root cases at v=15
+13,2,37,98,exists,root cases at v=15
+13,2,38,98,exists,root cases at v=15
+13,2,47,98,exists,root cases at v=15
+13,2,48,98,exists,root cases at v=15
+13,2,49,98,exists,root cases at v=15
+13,2,9,99,exists,"(2,9,21) and (2,i,15) for i<=9"
+13,2,10,99,exists,"(2,10,21) and (2,i,15) for i<=10"
+13,2,11,99,exists,"(2,11,21) and (2,i,15) for i<=11"
+13,2,12,99,exists,"(2,12,21) and (2,i,15) for i<=12"
+13,2,22,99,exists,root cases at v=15
+13,2,23,99,exists,root cases at v=15
+13,2,24,99,exists,root cases at v=15
+13,2,25,99,exists,root cases at v=15
+13,2,35,99,exists,root cases at v=15
+13,2,36,99,exists,root cases at v=15
+13,2,37,99,exists,root cases at v=15
+13,2,38,99,exists,root cases at v=15
+13,2,48,99,exists,root cases at v=15
+13,2,49,99,exists,root cases at v=15
+13,2,10,100,exists,"(2,10,22) and (2,i,15) for i<=10"
+13,2,11,100,exists,"(2,11,22) and (2,i,15) for i<=11"
+13,2,12,100,exists,"(2,12,22) and (2,i,15) for i<=12"
+13,2,23,100,exists,root cases at v=15
+13,2,24,100,exists,root cases at v=15
+13,2,25,100,exists,root cases at v=15
+13,2,36,100,exists,root cases at v=15
+13,2,37,100,exists,root cases at v=15
+13,2,38,100,exists,root cases at v=15
+13,2,49,100,exists,root cases at v=15
+13,2,50,100,exists,root cases at v=15
 13,3,4,16,open,
 13,3,5,16,open,
 13,3,6,16,open,
@@ -20569,20 +20569,20 @@ N,t,k,v,status,justification
 13,3,6,18,open,
 13,3,7,18,open,
 13,3,8,18,open,
-13,3,9,18,open,
+13,3,9,18,exists,"Alltop from (2,8,17)"
 13,3,7,19,open,
 13,3,8,19,open,
 13,3,9,19,open,
 13,3,8,20,open,
 13,3,9,20,open,
-13,3,10,20,open,
+13,3,10,20,exists,"Alltop from (2,9,19)"
 13,3,9,21,open,
 13,3,10,21,open,
 13,3,10,22,open,
-13,3,11,22,open,
+13,3,11,22,exists,"Alltop from (2,10,21)"
 13,3,11,23,open,
-13,3,12,24,open,
-13,3,4,29,open,
+13,3,12,24,exists,"Alltop from (2,11,23)"
+13,3,4,29,exists,this paper
 13,3,5,29,open,
 13,3,6,29,open,
 13,3,7,29,open,
@@ -20640,7 +20640,7 @@ N,t,k,v,status,justification
 13,3,18,42,open,
 13,3,19,42,exists,LOTW07
 13,3,20,42,open,
-13,3,21,42,open,
+13,3,21,42,exists,"Alltop from (2,20,41)"
 13,3,5,43,open,
 13,3,6,43,open,
 13,3,7,43,open,
@@ -20663,7 +20663,7 @@ N,t,k,v,status,justification
 13,3,19,44,exists,LOTW07
 13,3,20,44,exists,LOTW07
 13,3,21,44,open,
-13,3,22,44,open,
+13,3,22,44,exists,"Alltop from (2,21,43)"
 13,3,7,45,open,
 13,3,8,45,open,
 13,3,9,45,open,
@@ -20680,7 +20680,7 @@ N,t,k,v,status,justification
 13,3,12,46,open,
 13,3,21,46,open,
 13,3,22,46,open,
-13,3,23,46,open,
+13,3,23,46,exists,"Alltop from (2,22,45)"
 13,3,9,47,open,
 13,3,10,47,open,
 13,3,11,47,open,
@@ -20691,13 +20691,13 @@ N,t,k,v,status,justification
 13,3,11,48,exists,LOTW07
 13,3,12,48,exists,LOTW07
 13,3,23,48,open,
-13,3,24,48,open,
+13,3,24,48,exists,"Alltop from (2,23,47)"
 13,3,11,49,exists,"(3,10,48) and (3,11,48)"
 13,3,12,49,exists,"(3,11,48) and (3,12,48)"
 13,3,24,49,open,
 13,3,12,50,exists,"(3,11,49) and (3,12,49)"
-13,3,25,50,open,
-13,3,4,55,open,
+13,3,25,50,exists,"Alltop from (2,24,49)"
+13,3,4,55,exists,"(3,4,29) and (3,i,29) for i<=4"
 13,3,5,55,open,
 13,3,6,55,open,
 13,3,7,55,open,
@@ -20787,7 +20787,7 @@ N,t,k,v,status,justification
 13,3,25,62,open,
 13,3,12,63,open,
 13,3,25,63,open,
-13,3,4,68,open,
+13,3,4,68,exists,"(3,4,42) and (3,i,29) for i<=4"
 13,3,5,68,open,
 13,3,6,68,open,
 13,3,7,68,exists,"LMW01 Thm 5, projective group, LS[6448]"
@@ -20809,7 +20809,7 @@ N,t,k,v,status,justification
 13,3,31,68,open,
 13,3,32,68,open,
 13,3,33,68,open,
-13,3,34,68,open,
+13,3,34,68,exists,"Alltop from (2,33,67)"
 13,3,5,69,open,
 13,3,6,69,open,
 13,3,7,69,open,
@@ -20847,7 +20847,7 @@ N,t,k,v,status,justification
 13,3,32,70,open,
 13,3,33,70,open,
 13,3,34,70,open,
-13,3,35,70,open,
+13,3,35,70,exists,"Alltop from (2,34,69)"
 13,3,7,71,open,
 13,3,8,71,open,
 13,3,9,71,open,
@@ -20875,7 +20875,7 @@ N,t,k,v,status,justification
 13,3,25,72,open,
 13,3,34,72,open,
 13,3,35,72,open,
-13,3,36,72,open,
+13,3,36,72,exists,"Alltop from (2,35,71)"
 13,3,9,73,open,
 13,3,10,73,open,
 13,3,11,73,open,
@@ -20893,7 +20893,7 @@ N,t,k,v,status,justification
 13,3,24,74,open,
 13,3,25,74,open,
 13,3,36,74,open,
-13,3,37,74,open,
+13,3,37,74,exists,"Alltop from (2,36,73)"
 13,3,11,75,open,
 13,3,12,75,open,
 13,3,24,75,open,
@@ -20901,7 +20901,7 @@ N,t,k,v,status,justification
 13,3,37,75,open,
 13,3,12,76,open,
 13,3,25,76,open,
-13,3,38,76,open,
+13,3,38,76,exists,"Alltop from (2,37,75)"
 13,3,4,81,exists,Teirlinck84
 13,3,5,81,open,
 13,3,6,81,open,
@@ -21037,7 +21037,7 @@ N,t,k,v,status,justification
 13,3,12,89,open,
 13,3,25,89,open,
 13,3,38,89,open,
-13,3,4,94,open,
+13,3,4,94,exists,"(3,4,42) and (3,i,29) for i<=4"
 13,3,5,94,open,
 13,3,6,94,open,
 13,3,7,94,open,
@@ -21068,7 +21068,7 @@ N,t,k,v,status,justification
 13,3,44,94,open,
 13,3,45,94,open,
 13,3,46,94,open,
-13,3,47,94,open,
+13,3,47,94,exists,"Alltop from (2,46,93)"
 13,3,5,95,open,
 13,3,6,95,open,
 13,3,7,95,open,
@@ -21121,7 +21121,7 @@ N,t,k,v,status,justification
 13,3,45,96,open,
 13,3,46,96,open,
 13,3,47,96,open,
-13,3,48,96,open,
+13,3,48,96,exists,"Alltop from (2,47,95)"
 13,3,7,97,open,
 13,3,8,97,open,
 13,3,9,97,open,
@@ -21160,7 +21160,7 @@ N,t,k,v,status,justification
 13,3,38,98,open,
 13,3,47,98,open,
 13,3,48,98,open,
-13,3,49,98,open,
+13,3,49,98,exists,"Alltop from (2,48,97)"
 13,3,9,99,open,
 13,3,10,99,open,
 13,3,11,99,open,
@@ -21185,7 +21185,7 @@ N,t,k,v,status,justification
 13,3,37,100,open,
 13,3,38,100,open,
 13,3,49,100,open,
-13,3,50,100,open,
+13,3,50,100,exists,"Alltop from (2,49,99)"
 13,4,5,17,no,Ostergard and Pottonen
 13,4,6,17,open,
 13,4,7,17,open,
@@ -26272,7 +26272,7 @@ N,t,k,v,status,justification
 19,3,17,34,exists,"Alltop from (2,16,33)"
 19,3,17,35,exists,"(3,16,34) and (3,17,34)"
 19,3,18,36,exists,"Alltop from (2,17,35)"
-19,3,4,41,open,
+19,3,4,41,exists,this paper
 19,3,5,41,open,
 19,3,6,41,open,
 19,3,7,41,open,
@@ -26576,7 +26576,7 @@ N,t,k,v,status,justification
 19,3,36,73,open,
 19,3,18,74,open,
 19,3,37,74,open,
-19,3,4,79,open,
+19,3,4,79,exists,"(3,4,41) and (3,i,41) for i<=4"
 19,3,5,79,open,
 19,3,6,79,open,
 19,3,7,79,open,
@@ -26816,7 +26816,7 @@ N,t,k,v,status,justification
 19,3,37,92,open,
 19,3,18,93,open,
 19,3,37,93,open,
-19,3,4,98,open,
+19,3,4,98,exists,"(3,4,60) and (3,i,41) for i<=4"
 19,3,5,98,open,
 19,3,6,98,open,
 19,3,7,98,open,
@@ -42825,7 +42825,7 @@ N,t,k,v,status,justification
 37,6,35,100,open,
 37,6,36,100,open,
 41,2,3,43,exists,"Lu, Teirlinck"
-41,2,4,43,open,
+41,2,4,43,exists,this paper
 41,2,5,43,exists,"ASL(1,q), LS[1066]"
 41,2,6,43,open,
 41,2,7,43,open,
@@ -42843,8 +42843,8 @@ N,t,k,v,status,justification
 41,2,19,43,exists,"LMW01 Thm 5, affine group, LS[886458950]"
 41,2,20,43,exists,"ASL(1,q), LS[1063750740]"
 41,2,21,43,open,
-41,2,4,44,open,
-41,2,5,44,open,
+41,2,4,44,exists,this paper
+41,2,5,44,exists,"(2,4,43) and (2,5,43)"
 41,2,6,44,open,
 41,2,7,44,open,
 41,2,8,44,open,
@@ -42862,7 +42862,7 @@ N,t,k,v,status,justification
 41,2,20,44,exists,"complement of (2,24,44)"
 41,2,21,44,open,
 41,2,22,44,open,
-41,2,5,45,open,
+41,2,5,45,exists,"(2,4,44) and (2,5,44)"
 41,2,6,45,open,
 41,2,7,45,open,
 41,2,8,45,open,
@@ -43205,8 +43205,8 @@ N,t,k,v,status,justification
 41,2,39,79,open,
 41,2,40,80,open,
 41,2,3,84,exists,"Lu, Teirlinck"
-41,2,4,84,open,
-41,2,5,84,open,
+41,2,4,84,exists,"(2,4,43) and (2,i,43) for i<=4"
+41,2,5,84,exists,"(2,5,43) and (2,i,43) for i<=5"
 41,2,6,84,open,
 41,2,7,84,open,
 41,2,8,84,open,
@@ -43242,8 +43242,8 @@ N,t,k,v,status,justification
 41,2,38,84,open,
 41,2,39,84,open,
 41,2,40,84,open,
-41,2,4,85,open,
-41,2,5,85,open,
+41,2,4,85,exists,"(2,4,44) and (2,i,43) for i<=4"
+41,2,5,85,exists,"(2,5,44) and (2,i,43) for i<=5"
 41,2,6,85,open,
 41,2,7,85,open,
 41,2,8,85,open,
@@ -43279,7 +43279,7 @@ N,t,k,v,status,justification
 41,2,38,85,open,
 41,2,39,85,open,
 41,2,40,85,open,
-41,2,5,86,open,
+41,2,5,86,exists,"(2,5,45) and (2,i,43) for i<=5"
 41,2,6,86,open,
 41,2,7,86,open,
 41,2,8,86,open,
