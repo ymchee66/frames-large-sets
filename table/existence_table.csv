@@ -18439,14 +18439,14 @@ N,t,k,v,status,justification
 11,3,5,15,open,
 11,3,6,15,exists,this paper
 11,3,7,15,exists,"(3,6,14) and (3,7,14)"
-11,3,6,16,open,
+11,3,6,16,exists,this paper
 11,3,7,16,exists,"(3,6,15) and (3,7,15)"
 11,3,8,16,exists,"Alltop from (2,7,15)"
-11,3,7,17,open,
+11,3,7,17,exists,"(3,6,16) and (3,7,16)"
 11,3,8,17,exists,"(3,7,16) and (3,8,16)"
-11,3,8,18,open,
+11,3,8,18,exists,"(3,7,17) and (3,8,17)"
 11,3,9,18,exists,"Alltop from (2,8,17)"
-11,3,9,19,open,
+11,3,9,19,exists,"(3,8,18) and (3,9,18)"
 11,3,10,20,exists,"Alltop from (2,9,19)"
 11,3,4,25,open,
 11,3,5,25,open,

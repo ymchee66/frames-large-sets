@@ -97,7 +97,7 @@ OURS += [(13, 2, 5, 15, "this paper"), (13, 2, 6, 15, "this paper"), (13, 2, 5, 
          (41, 2, 4, 44, "this paper")]
 OURS += [(17, 2, 9, 19, "this paper"), (19, 2, 5, 21, "this paper"), (19, 2, 6, 21, "this paper"), (19, 2, 7, 21, "this paper"),
          (19, 2, 6, 22, "this paper"), (19, 2, 7, 22, "this paper"), (23, 2, 5, 25, "this paper"), (23, 2, 5, 26, "this paper")]
-OURS += [(19, 2, 8, 21, "this paper"), (19, 2, 9, 21, "this paper"), (19, 2, 10, 21, "this paper"), (23, 2, 6, 25, "this paper"), (23, 2, 7, 25, "this paper"), (23, 2, 8, 25, "this paper"), (11, 3, 6, 14, "this paper"), (11, 3, 6, 15, "this paper"), (31, 2, 6, 33, "this paper")]
+OURS += [(19, 2, 8, 21, "this paper"), (19, 2, 9, 21, "this paper"), (19, 2, 10, 21, "this paper"), (23, 2, 6, 25, "this paper"), (23, 2, 7, 25, "this paper"), (23, 2, 8, 25, "this paper"), (11, 3, 6, 14, "this paper"), (11, 3, 6, 15, "this paper"), (31, 2, 6, 33, "this paper"), (11, 3, 6, 16, "this paper")]
 NONEX = [(5,2,3,7,"Cayley"),(5,2,4,7,"complement"),(5,3,4,8,"no LS[5](2,3,7)"),(7,3,4,10,"Kramer and Mesner"),
          (11,4,5,15,"Mendelsohn and Hung"),(13,4,5,17,"Ostergard and Pottonen")]
 def axioms(T):
