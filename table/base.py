@@ -58,11 +58,11 @@ for q in range(7, VMAX + 1):
         from math import gcd
         for k in range(3, q - 2):                                  # ASL(1,q), t = 2
             if k % p0 and gcd(k * (k - 1), (q - 1) // 2) == 1:
-                DIRECT.append((comb(q - 2, k - 2) // comb(k, 2), 2, k, q, "ASL(1,q)"))
+                DIRECT.append((comb(q - 2, k - 2) // comb(k, 2), 2, k, q, "CCFK90 Thm 3, ASL(1,q)" if all(q % d for d in range(2, int(q ** .5) + 1)) else "ASL(1,q)"))
         if q + 1 <= VMAX:
-            for k in range(4, q - 2):                              # PSL(2,q), t = 3 (Cusack and Magliveras)
+            for k in range(4, q - 2):                              # PSL(2,q), t = 3 (Chee et al. 1990, Theorem 4; Cusack and Magliveras)
                 if gcd(k * (k - 1), p0) == 1 and gcd(k * (k - 1) * (k - 2), (q - 1) // 2) == 1 and gcd(k, (q + 1) // 2) == 1:
-                    DIRECT.append((2 * comb(q + 1, k) // (q * (q * q - 1)), 3, k, q + 1, "CuMa99"))
+                    DIRECT.append((2 * comb(q + 1, k) // (q * (q * q - 1)), 3, k, q + 1, "CCFK90 Thm 4, CuMa99"))
 for v in (32, 64):                                                 # AGL(1,2^n), t = 2
     from math import gcd
     for k in range(3, v - 2, 2):
@@ -95,6 +95,9 @@ OURS += [(13, 2, 5, 15, "this paper"), (13, 2, 6, 15, "this paper"), (13, 2, 5, 
          (13, 2, 6, 18, "this paper"), (13, 2, 7, 19, "this paper"), (13, 2, 8, 20, "this paper"), (13, 3, 4, 29, "this paper"),
          (13, 2, 5, 29, "this paper"), (13, 2, 5, 41, "this paper"), (19, 3, 4, 41, "this paper"), (41, 2, 4, 43, "this paper"),
          (41, 2, 4, 44, "this paper")]
+OURS += [(17, 2, 9, 19, "this paper"), (19, 2, 5, 21, "this paper"), (19, 2, 6, 21, "this paper"), (19, 2, 7, 21, "this paper"),
+         (19, 2, 6, 22, "this paper"), (19, 2, 7, 22, "this paper"), (23, 2, 5, 25, "this paper"), (23, 2, 5, 26, "this paper")]
+OURS += [(19, 2, 8, 21, "this paper"), (19, 2, 9, 21, "this paper"), (19, 2, 10, 21, "this paper"), (23, 2, 6, 25, "this paper"), (23, 2, 7, 25, "this paper"), (23, 2, 8, 25, "this paper"), (11, 3, 6, 14, "this paper"), (11, 3, 6, 15, "this paper"), (31, 2, 6, 33, "this paper")]
 NONEX = [(5,2,3,7,"Cayley"),(5,2,4,7,"complement"),(5,3,4,8,"no LS[5](2,3,7)"),(7,3,4,10,"Kramer and Mesner"),
          (11,4,5,15,"Mendelsohn and Hung"),(13,4,5,17,"Ostergard and Pottonen")]
 def axioms(T):
