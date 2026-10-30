@@ -14,6 +14,7 @@ the programs used to find them, and the program that computes the existence tabl
 | `data/several_base_large_sets.txt` | Groups, stabilisers and base blocks of large sets from several base designs, including those of Table 7 with frames of rank three (Theorem 6.17) |
 | `data/rank_two_large_sets.json` | Generators of H, K_1, K_2 and base blocks of the 73 large sets of Theorem 6.17 realising frames of rank two (Tables 6 and 7), including the LS[11](3,6,16) |
 | `data/rank_two_search_v20.csv` | Outcome of the search over frames of rank two for all 232 parameter sets with N >= 3 prime and v <= 20 (Table 6) |
+| `data/agl2_large_sets.json` | Generators and base blocks of the 41 large sets realising frames with H = T x| L on F_q^2 (q = 4, 5), including LS[13](3,7,16), LS[11](3,4,25) and LS[11](3,k,25) for k = 6, 7, 8 (Theorem 6.17, Table 7) |
 | `verify/verify_affine.py` | Verifier for `affine_large_sets.txt` |
 | `verify/verify_shifter.py` | Verifier for `shifter_large_sets.txt` |
 | `verify/verify_several.py` | Verifier for `several_base_large_sets.txt`, `rank_one_large_sets.txt` and `frame_families_large_sets.txt` |
@@ -32,6 +33,7 @@ python3 verify/verify_several.py data/several_base_large_sets.txt
 python3 verify/verify_several.py data/rank_one_large_sets.txt
 python3 verify/verify_several.py data/frame_families_large_sets.txt
 python3 verify/verify_ranktwo.py data/rank_two_large_sets.json
+python3 verify/verify_ranktwo.py data/agl2_large_sets.json
 ```
 
 Each line of output names a large set and reports whether it passed. The first two runs take a few
@@ -125,6 +127,7 @@ the pairs of subgroup classes (K_1, K_2) of H with [H:K_1] + [H:K_2] = N that pa
 congruence conditions. `search/rank_two/phase2.py` applies the orbit and union filters and solves the
 system of Theorem 3.1 with a time limit per frame. `pgrp.py` computes the conjugacy classes of
 subgroups of a small permutation group, and `summary.py` produces `rank_two_search_v20.csv`.
+`agl2.py` and `agl3.py` give the groups T x| L on F_q^2 and F_3^3, used by `phase1_agl2.py` and `phase1_agl3.py`.
 
 ## Existence table
 
@@ -136,7 +139,7 @@ python3 gen_tables.py
 recomputes `large_sets_table.csv`, which should coincide with `existence_table.csv`. The base
 results and their sources are listed in `base.py`, and the recursive theorems are implemented in
 `engine.py`. `existence_tables.pdf` contains the full tables with the justification of every entry.
-`open_cases.csv` lists the 33557 admissible parameter sets LS[N](t,k,v) with N prime, t < k <= v/2 and
+`open_cases.csv` lists the 33547 admissible parameter sets LS[N](t,k,v) with N prime, t < k <= v/2 and
 v <= 100 that remain open, with columns `N,t,k,v,lambda` and a flag `v_mod_N_lt_k_mod_N` that is 1 when
 the shifter condition v mod N < k mod N of Corollary 5.4 holds.
 

@@ -16,7 +16,7 @@ for key in list(done):
     T_,Hg_,Kg_=json.loads(key)
     seeninv.add((tuple(T_),dd.inv(Hg_,T_[3]),tuple(dd.inv(K,T_[3]) for K in Kg_)))
 out=open(outp,'a')
-def alive(): return subprocess.run(['pgrep','-f','phase1.py'],capture_output=True).returncode==0
+def alive(): return subprocess.run(['pgrep','-f','^python3 phase1'],capture_output=True).returncode==0
 fh=open(cand); buf=''
 while True:
     l=fh.readline()

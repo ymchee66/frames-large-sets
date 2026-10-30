@@ -23,7 +23,7 @@ def info(r):
         for h in H:
             hi=inv(h); c&={comp(comp(hi,g),h) for g in K}
         cores.append(c)
-    G=cores[0]&cores[1]
+    G=set.intersection(*cores)
     Hl=list(H); ab=None
     # P abelian iff commutators in G
     import itertools, random

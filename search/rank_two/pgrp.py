@@ -60,7 +60,7 @@ class Group:
             if x in seen: continue
             o=set(P[:,x].tolist()); seen|=o; lens.append(len(o))
         return (len(K),tuple(ords),tuple(sorted(lens)))
-    def subgroup_classes(s, max_index=None, max_classes=5000):
+    def subgroup_classes(s, max_index=None, max_classes=5000, max_order=None):
         """conjugacy-class representatives of all subgroups (via joins of cyclic subgroups)."""
         cyc={}
         def ppow(o):
@@ -81,6 +81,7 @@ class Group:
         classes={}; seen=set()
         Mi=s.M[s.inv]   # Mi[h,k] = h^-1 * k
         def add(K):
+            if max_order and len(K)>max_order: return False
             if K in seen: return False
             classes.setdefault(len(K),[]).append(K)
             Ka=np.array(sorted(K))
